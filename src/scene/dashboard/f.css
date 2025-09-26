@@ -1,0 +1,60 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal-width columns */
+    grid-template-columns: 3fr 2fr;
+    gap: 3px; /* Adjust gap between grid items */
+    padding: 16px; /* Add padding around the grid */
+    height: 380px;
+    margin-top: auto;
+   
+  }
+
+  
+  .grid-item {
+    
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(68, 243, 68, 0.375); /* Optional: Add shadow to grid items */
+    
+  }
+  .grid-item2 {
+    
+    padding: 3px;
+    border-radius: 5px;
+     /* Optional: Add shadow to grid items */
+    
+  }
+  .red-row {
+    background-color: red !important;
+    color: rgb(233, 9, 9) !important;
+    font-weight: '50px';
+  }
+  
+
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal-width columns */
+    gap: 3px; /* Adjust gap between grid items */
+    padding: 0px;
+     /* Add padding around the grid */
+  }
+  
+  .grid-item1{
+    background-color: #010101; /* Example background color */
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+    height: 80px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to grid items */
+    
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three equal-width columns */
+    gap: 3px; /* Adjust gap between grid items */
+    padding: 0px;
+    ;
+     /* Add padding around the grid */
+  }
